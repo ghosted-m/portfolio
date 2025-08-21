@@ -13,7 +13,7 @@ export default function Headers() {
                 <a href="/home">AMRENDRA</a>
               </h1>
             </div>
-            <div className="flex gap-8">
+            <div className="hidden md:flex gap-8">
               <Link to={"/home"} className="px-4" >
                 HOME
               </Link>
