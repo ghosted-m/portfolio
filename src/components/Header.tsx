@@ -10,7 +10,7 @@ export default function Headers() {
           <div className="h-16 flex items-center px-[7vw] md:px-30 flex justify-between bg-black">
             <div>
               <h1 className="text-3xl font-bold">
-                <a href="/home">AMRENDRA</a>
+                <Link to={"/home"}>AMRENDRA</Link>
               </h1>
             </div>
             <div className="hidden md:flex gap-8">
